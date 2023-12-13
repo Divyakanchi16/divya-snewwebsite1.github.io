@@ -56,116 +56,97 @@
 
 <body data-new-gr-c-s-check-loaded="14.1145.0" data-gr-ext-installed="">
     <!-- Navigation Bar-->
-    Navigation
     <nav>
         <div class="container">
-            Heading level 1
-            <h1 style="color: #000; background-color: #f0f0f0;">
-                Vehicle Lookup
-            </h1>
-            Unordered list
+            <!-- Heading level 1 -->
+            <h1 style="color: #000; background-color: #f0f0f0;">Vehicle Lookup</h1>
+
+            <!-- Unordered list -->
             <ul>
                 <li>
-                    Very low contrast
-                    <a href="#home" style="color: rgb(0, 123, 255); background-color: rgb(51, 51, 51);">
-                        Home
-                    </a>
+                    <!-- Home -->
+                    <a href="#home" style="color: #007bff;">Home</a>
                 </li>
                 <li>
-                    Very low contrast
-                    <a href="#camera">
-                        Camera
-                    </a>
+                    <!-- Camera -->
+                    <a href="#camera" style="color: #007bff;">Camera</a>
                 </li>
                 <li>
-                    Very low contrast
-                    <a href="#video">
-                        Video
-                    </a>
+                    <!-- Video -->
+                    <a href="#video" style="color: #007bff;">Video</a>
                 </li>
                 <li>
-                    Very low contrast
-                    <a href="#contact">
-                        Contact
-                    </a>
+                    <!-- Contact -->
+                    <a href="#contact" style="color: #007bff;">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
+
     <!-- Header Section with Background Image-->
-    Header
     <header id="home">
-        <base href="https://divyakanchi16.github.io/divya-snewwebsite1.github.io/">
         <div class="container">
-            Heading level 2
-            <h2>
-                Get Vehicle Details Instantly
-            </h2>
-            <p>
-                Upload a picture of the number plate to retrieve information about the vehicle.
-            </p>
-            Very low contrast
-            <a href="#camera" class="btn" style="color: #fff; background-color: #007bff;">
-                Capture Image
-            </a>
+            <!-- Heading level 2 -->
+            <h2>Get Vehicle Details Instantly</h2>
+            <p>Upload a picture of the number plate to retrieve information about the vehicle.</p>
+
+            <!-- Capture Image button -->
+            <a href="#camera" class="btn">Capture Image</a>
         </div>
     </header>
+
     <!-- Camera Section-->
     <section id="camera">
         <div class="container">
-            Heading level 2
-            <h2>
-                Upload Number Plate Image
-            </h2>
-            Form label
-            <label for="uploadInput">
-                Select Image:
-            </label>
-            ARIA description
+            <!-- Heading level 2 -->
+            <h2>Upload Number Plate Image</h2>
+
+            <!-- Form label -->
+            <label for="uploadInput">Select Image:</label>
+
+            <!-- ARIA description -->
             <input type="file" accept="image/*" capture="camera" id="uploadInput" aria-describedby="uploadInputDescription">
-            Very low contrast
-            <button onclick="processImage()" class="btn" style="color: #fff; background-color: #007bff;">
-                Submit
-            </button>
-            <p id="uploadInputDescription" style="color: #000; background-color: #f0f0f0;">
-                Please select an image of the number plate.
-            </p>
+
+            <!-- Submit button -->
+            <button onclick="processImage()" class="btn">Submit</button>
+
+            <!-- Upload input description -->
+            <p id="uploadInputDescription">Please select an image of the number plate.</p>
         </div>
     </section>
+
     <!-- Video Section-->
     <section id="video">
         <div class="container">
-            Heading level 2
-            <h2>
-                How It Works
-            </h2>
+            <!-- Heading level 2 -->
+            <h2>How It Works</h2>
             <!-- Video player and descriptions go here-->
         </div>
     </section>
+
     <!-- Contact Section-->
     <section id="contact">
         <div class="container">
-            Heading level 2
-            <h2>
-                Have Concerns?
-            </h2>
-            Form label
-            <label for="concernsInput">
-                Your concerns:
-            </label>
+            <!-- Heading level 2 -->
+            <h2>Have Concerns?</h2>
+
+            <!-- Form label -->
+            <label for="concernsInput">Your concerns:</label>
             <input type="text" placeholder="Type your concerns here..." id="concernsInput">
-            Very low contrast
-            <button onclick="submitConcerns()" class="btn" style="color: #fff; background-color: #007bff;">
-                Submit
-            </button>
+
+            <!-- Submit button -->
+            <button onclick="submitConcerns()" class="btn">Submit</button>
         </div>
     </section>
+
     <!-- Footer Section-->
-    Footer
     <footer>
         <div class="container">
-            <p style="color: #000; background-color: #f0f0f0;">
-                © 2023 Vehicle Lookup. All rights reserved.
-            </p>
+            <p>&copy; 2023 Vehicle Lookup. All rights reserved.</p>
         </div>
     </footer>
+</body>
+
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
