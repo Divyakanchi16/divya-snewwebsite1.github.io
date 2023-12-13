@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <base href="https://divyakanchi16.github.io/divya-snewwebsite1.github.io/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -12,7 +14,11 @@
             background-color: #fff; /* Set a contrasting background color */
         }
 
-        h1, h2, p, a, button {
+        h1,
+        h2,
+        p,
+        a,
+        button {
             color: #000; /* Set a contrasting text color */
         }
 
@@ -22,7 +28,10 @@
         }
 
         /* Add styles for specific sections */
-        header, #camera, #video, #contact {
+        header,
+        #camera,
+        #video,
+        #contact {
             background-color: #f0f0f0; /* Set a background color for sections */
             padding: 20px; /* Add padding for better readability */
         }
@@ -44,66 +53,119 @@
         /* Adjust other specific elements as needed */
     </style>
 </head>
-<body>
 
-    <!-- Navigation Bar -->
+<body data-new-gr-c-s-check-loaded="14.1145.0" data-gr-ext-installed="">
+    <!-- Navigation Bar-->
+    Navigation
     <nav>
         <div class="container">
-            <h1 style="color: #000; background-color: #f0f0f0;">Vehicle Lookup</h1>
+            Heading level 1
+            <h1 style="color: #000; background-color: #f0f0f0;">
+                Vehicle Lookup
+            </h1>
+            Unordered list
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#camera">Camera</a></li>
-                <li><a href="#video">Video</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>
+                    Very low contrast
+                    <a href="#home" style="color: rgb(0, 123, 255); background-color: rgb(51, 51, 51);">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    Very low contrast
+                    <a href="#camera">
+                        Camera
+                    </a>
+                </li>
+                <li>
+                    Very low contrast
+                    <a href="#video">
+                        Video
+                    </a>
+                </li>
+                <li>
+                    Very low contrast
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
-
-    <!-- Header Section with Background Image -->
+    <!-- Header Section with Background Image-->
+    Header
     <header id="home">
+        <base href="https://divyakanchi16.github.io/divya-snewwebsite1.github.io/">
         <div class="container">
-            <h2>Get Vehicle Details Instantly</h2>
-            <p>Upload a picture of the number plate to retrieve information about the vehicle.</p>
-            <a href="#camera" class="btn" style="color: #fff; background-color: #007bff;">Capture Image</a>
+            Heading level 2
+            <h2>
+                Get Vehicle Details Instantly
+            </h2>
+            <p>
+                Upload a picture of the number plate to retrieve information about the vehicle.
+            </p>
+            Very low contrast
+            <a href="#camera" class="btn" style="color: #fff; background-color: #007bff;">
+                Capture Image
+            </a>
         </div>
     </header>
-
-    <!-- Camera Section -->
+    <!-- Camera Section-->
     <section id="camera">
         <div class="container">
-            <h2>Upload Number Plate Image</h2>
-            <label for="uploadInput">Select Image:</label>
+            Heading level 2
+            <h2>
+                Upload Number Plate Image
+            </h2>
+            Form label
+            <label for="uploadInput">
+                Select Image:
+            </label>
+            ARIA description
             <input type="file" accept="image/*" capture="camera" id="uploadInput" aria-describedby="uploadInputDescription">
-            <button onclick="processImage()" class="btn" style="color: #fff; background-color: #007bff;">Submit</button>
-            <p id="uploadInputDescription" style="color: #000; background-color: #f0f0f0;">Please select an image of the number plate.</p>
+            Very low contrast
+            <button onclick="processImage()" class="btn" style="color: #fff; background-color: #007bff;">
+                Submit
+            </button>
+            <p id="uploadInputDescription" style="color: #000; background-color: #f0f0f0;">
+                Please select an image of the number plate.
+            </p>
         </div>
     </section>
-
-    <!-- Video Section -->
+    <!-- Video Section-->
     <section id="video">
         <div class="container">
-            <h2>How It Works</h2>
-            <!-- Video player and descriptions go here -->
+            Heading level 2
+            <h2>
+                How It Works
+            </h2>
+            <!-- Video player and descriptions go here-->
         </div>
     </section>
-
-    <!-- Contact Section -->
+    <!-- Contact Section-->
     <section id="contact">
         <div class="container">
-            <h2>Have Concerns?</h2>
-            <label for="concernsInput">Your concerns:</label>
+            Heading level 2
+            <h2>
+                Have Concerns?
+            </h2>
+            Form label
+            <label for="concernsInput">
+                Your concerns:
+            </label>
             <input type="text" placeholder="Type your concerns here..." id="concernsInput">
-            <button onclick="submitConcerns()" class="btn" style="color: #fff; background-color: #007bff;">Submit</button>
+            Very low contrast
+            <button onclick="submitConcerns()" class="btn" style="color: #fff; background-color: #007bff;">
+                Submit
+            </button>
         </div>
     </section>
-
-    <!-- Footer Section -->
+    <!-- Footer Section-->
+    Footer
     <footer>
         <div class="container">
-            <p style="color: #000; background-color: #f0f0f0;">&copy; 2023 Vehicle Lookup. All rights reserved.</p>
+            <p style="color: #000; background-color: #f0f0f0;">
+                © 2023 Vehicle Lookup. All rights reserved.
+            </p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
